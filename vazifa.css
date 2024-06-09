@@ -1,0 +1,150 @@
+@import url("http://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+
+* {
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('https://img.goodfon.com/original/1800x1200/5/96/kolonizaciya-korabl-planety.jpg') no-repeat;
+    background-position: center;
+    animation: fadeIn 3s ease-in-out;
+}
+
+
+.wrapper {
+    width: 430px;
+    background: transparent;
+    border: 2px solid rgb(170, 230, 243);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgb(132, 234, 255);
+    color: aqua;
+    border-radius: 15px;
+    padding: 30px 40px;
+    animation: slideIn 1.5s ease-in-out; 
+}
+
+
+.wrapper h1 {
+    font-size: 38px;
+    text-align: center;
+}
+
+
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid aqua;
+    border-radius: 40px;
+    font-size: 20px;
+    color: aqua;
+    padding: 20px 45px 20px 20px;
+    transition: border-color 0.8s ease; 
+}
+
+
+.input-box input:focus {
+    border-color: aqua;
+}
+
+
+.input-box input::placeholder {
+    color: aqua;
+}
+
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -15px 0 15px;
+}
+
+
+.remember-forgot label {
+    accent-color: aqua
+    ;
+    margin-right: 5px;
+}
+
+
+.remember-forgot a {
+    color:  aqua;
+    text-decoration: none;
+}
+
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: aqua;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(136, 136, 136);
+    cursor: pointer;
+    font-size: 16px;
+    color: darkgray;
+    font-weight: 600;
+    transition:  0.8s ease, transform 0.8s ease;
+}
+
+
+.wrapper .btn:hover {
+    background: aqua;
+    transform: scale(1.05); 
+}
+
+
+.wrapper .register-link {
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+
+.register-link p a {
+    color: aqua;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
+
+
